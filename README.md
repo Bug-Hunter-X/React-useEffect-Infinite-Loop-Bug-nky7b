@@ -1,0 +1,3 @@
+# React useEffect Infinite Loop Bug
+
+This repository demonstrates a common React bug involving an infinite loop within a `useEffect` hook. The bug occurs when the state variable is updated within the effect's callback without using a dependency array or using the wrong dependencies, causing continuous re-renders. The solution provides a corrected implementation using the dependency array to control when the effect runs.
